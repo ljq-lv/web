@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'web',
+  title: 'fitness robot',
   tagline: 'provide u',
   favicon: 'img/favicon.ico',
 
