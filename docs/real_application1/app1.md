@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-# app1
-
+# 智能健身方案
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
 ## Create your first Post

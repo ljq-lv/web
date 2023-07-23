@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'fitness robot',
-  tagline: 'provide u',
-  favicon: 'img/favicon.ico',
+  title: '产品的名字',
+  tagline: '产品希望达到的预期标语',
+  favicon: 'img/favicon.ico', //小图标 用来 导航的小细节
 
   // Set the production url of your site here
   url: 'https://ljq-lv.github.io',
@@ -41,15 +41,11 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,10 +60,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'our company',
+        title: 'AXTech',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg', //logo旁边的 公司demo
         },
         items: [
           {
@@ -80,10 +76,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'application',
             position: 'left',
-            label: '产品应用实例',
+            label: '行业应用',
           },
           {
-            to: '/blog', label: '关于公司', position: 'left'},
+            type: 'docSidebar',
+            sidebarId: 'about',
+            position: 'left',
+            label: '关于AXTech',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'service',
@@ -91,13 +91,7 @@ const config = {
             label: '服务与支持',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'app_download',
-            position: 'left',
-            label: 'App下载',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ljq-lv/web/tree/master',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,41 +101,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '机器人',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '产品1',
+                to: '/docs/service_and_support/service',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '联系方式',
             items: [
               {
-                label: 'Stack Overflow',
+                label: '哔哩哔哩',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'youtube',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: '抖音',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: '下载中心',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '使用教程',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },

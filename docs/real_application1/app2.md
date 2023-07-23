@@ -1,9 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# This is skill 1 
-
+# 如何助力健身爱好者
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
 ## Create your first Post

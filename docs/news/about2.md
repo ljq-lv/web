@@ -1,8 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# 整体上的介绍（外观与什么）
+# 新闻2
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
-

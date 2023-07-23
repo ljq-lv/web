@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# This is skill 2
+# 智能AI教练系统
 
 Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 

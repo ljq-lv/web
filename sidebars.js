@@ -19,19 +19,19 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'fitness robot V1', // 侧边栏中的分类标题，将显示为一个标题
+      label: '一代辅助健身机器人', // 侧边栏中的分类标题，将显示为一个标题
       items: [
         'fitness_robot1/skill1',
         'fitness_robot1/skill2',
         'fitness_robot1/skill3',
+        'fitness_robot1/skill4',
       ],
     },
     {
       type: 'category',
-      label: 'fitness robot V2', // 侧边栏中的分类标题，将显示为一个标题
+      label: '待开发产品', // 侧边栏中的分类标题，将显示为一个标题
       items: [
         'fitness_robot2/skill1',
-        'fitness_robot2/skill2',
       ],
     },
   ],
@@ -39,33 +39,59 @@ const sidebars = {
   application: [
     {
       type: 'category',
-      label: 'real application', // 侧边栏中的分类标题，将显示为一个标题
+      label: '健身领域', // 侧边栏中的分类标题，将显示为一个标题
       items: [
         'real_application1/app1',
+        'real_application1/app2',
+        'real_application1/app3',
+
       ],
     },
   ],
 
-  service: [
+  about: [
     {
       type: 'category',
-      label: 'service', // 侧边栏中的分类标题，将显示为一个标题
+      label: '关于AXTech', // 侧边栏中的分类标题，将显示为一个标题
       items: [
-        'service_and_support/download',
-        'service_and_support/service',
+        'about/about1',
+        'about/about2',
+        'about/about3',
       ],
     },
   ],
 
-  app_download: [
+  service : [
+  {
+    type: 'category',
+    label: '资源下载', // 侧边栏中的分类标题，将显示为一个标题
+    items: [
+      'source/about1',
+      'source/about2',
+      'source/about3',
+
+    ],
+  },
+  {
+    type: 'category',
+    label: '条款与政策', // 侧边栏中的分类标题，将显示为一个标题
+    items: [
+      'service/about1',
+      'service/about2',
+      'service/about3',
+    ],
+  },
     {
       type: 'category',
-      label: 'real application', // 侧边栏中的分类标题，将显示为一个标题
+      label: '新闻中心', // 侧边栏中的分类标题，将显示为一个标题
       items: [
-        'app_download/download1',
+        'news/about1',
+        'news/about2',
+        'news/about3',
       ],
     },
-  ],
+],
+
 
 };
 
