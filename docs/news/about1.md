@@ -2,6 +2,4 @@
 sidebar_position: 1
 ---
 
-# 新闻1
-
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+# 劲爆！居然出现了这样一个产品！

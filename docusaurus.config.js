@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '产品的名字',
-  tagline: '产品希望达到的预期标语',
-  favicon: 'img/favicon.ico', //小图标 用来 导航的小细节
+  title: '海格力斯',
+  tagline: '让所有人安全健身，享受私人AI教练',
+  favicon: 'new_img/axt.ico', //小图标 用来 导航的小细节
 
   // Set the production url of your site here
   url: 'https://ljq-lv.github.io',
@@ -63,7 +63,7 @@ const config = {
         title: 'AXTech',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg', //logo旁边的 公司demo
+          src: 'new_img/axt.svg', //logo旁边的 公司demo
         },
         items: [
           {

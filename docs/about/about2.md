@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # 关于我们
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+我们的愿景 等东西捏

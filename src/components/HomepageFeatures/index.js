@@ -4,48 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '我们的首席产品',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '保护',
+    Svg: require('@site/static/new_img/1_1.svg').default,
     description: (
       <>
-        产品的简要介绍
+        在您需要帮助的时候，提供及时的保护
       </>
     ),
   },
   {
-    title: '我们的首席产品功能1',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'AI教练',
+      Svg: require('@site/static/new_img/1_2.svg').default,
     description: (
       <>
-          我们的首席产品功能1介绍1
+          提供个性化的指导
       </>
     ),
   },
-    {
-        title: '我们的首席产品功能2',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-        description: (
-            <>
-                我们的首席产品功能2介绍2
-            </>
-        ),
-    },
-    {
-        title: '我们的首席产品功能1',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-        description: (
-            <>
-                我们的首席产品功能3介绍3
-            </>
-        ),
-    },
 ];
 
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--20')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.featureSvg} role="img" style={{ width: '800px', height: '800px' }}/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

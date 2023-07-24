@@ -19,7 +19,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: '一代辅助健身机器人', // 侧边栏中的分类标题，将显示为一个标题
+      label: '海格力斯', // 侧边栏中的分类标题，将显示为一个标题
       items: [
         'fitness_robot1/skill1',
         'fitness_robot1/skill2',
@@ -29,7 +29,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '待开发产品', // 侧边栏中的分类标题，将显示为一个标题
+      label: '海格力斯二代', // 侧边栏中的分类标题，将显示为一个标题
       items: [
         'fitness_robot2/skill1',
       ],
@@ -67,9 +67,6 @@ const sidebars = {
     label: '资源下载', // 侧边栏中的分类标题，将显示为一个标题
     items: [
       'source/about1',
-      'source/about2',
-      'source/about3',
-
     ],
   },
   {
